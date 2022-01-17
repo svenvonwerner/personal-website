@@ -1,3 +1,165 @@
+
+
 body {
-    background-color: pink;
+    font-family:Arial, Helvetica, 'sans-serif';
+    color: black;
+}
+
+h2 {
+    font-weight:normal;
+    font-size: 1.3rem;
+}
+
+header h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+  }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+header .button {
+    display: flex;
+    flex-direction: column;    
+    text-decoration: none;
+    width: 5rem;
+    color: black;
+    justify-content: center;
+    
+
+}
+
+#interests {
+    display: flex;
+    flex-direction: column;
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;    
+}
+
+.img_photo {
+    width: 100%;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+}
+
+.skill_sn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: steelblue;
+    color: white;
+    padding: 6px  ;
+    margin-left: 3px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.hobby {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.hobby_sn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: steelblue;
+    color: white;
+    padding: 6px  ;
+    margin-left: 3px;
+    text-align: center;
+    border-radius: 2px;
+        
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+
+#social_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.social_link {
+    flex-grow: 1;
+    flex-basis: 0;
+    border-style: solid;
+    border-color: steelblue;
+    border-width: thin;
+}
+
+.social_link img {
+    height: 200px;
+    }
+ 
+.social_link h3 {
+    margin-bottom: 0%;
+    text-align: center;
+    color: white;
+    background-color: steelblue;
+}
+
+#social_box a { 
+    text-decoration: none; 
+}
+
+#cv_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.cv_station {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-bottom: 1rem;    
+}
+
+.cv_date {
+    width: 150px;
+}
+
+hr {
+    border-style: solid;
+    border-color: steelblue;
+    margin: 2rem 0 1rem 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 3rem;
+    background-color: steelblue;
+    margin-top: 3rem;
+    padding-left: 3px;
+    color: white;
 }
